@@ -1,0 +1,84 @@
+.home {
+  background-color: #181818;
+  height: 90vh;
+  width: 100%;
+}
+
+.home .content {
+  display: flex;
+  height: 90vh;
+}
+
+.image-container {
+  width: 25%;
+  border: 1rem white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-picture {
+  width: 15rem;
+  height: 15rem;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.profile-picture > img {
+  width: 15rem;
+  height: 15rem;
+  overflow: hidden;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 1px solid white; delet later */
+  flex-grow: 1;
+}
+
+.intro > h1 {
+  font-size: 3rem;
+  color: #8cbdd6;
+  letter-spacing: 4px;
+}
+
+.intro > h6 {
+  font-size: 1.5rem;
+  color: #396a85;
+  font-family: "Brygada 1918", serif;
+  font-style: italic;
+}
+
+.intro > button {
+  width: 7.5rem;
+  height: 3rem;
+  background-color: #e31c25;
+  border-style: none;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  margin: 3rem 2rem;
+}
+
+.social-media-icons {
+  display: flex;
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  color: #e31c25;
+}
+
+.social-media-icons > i {
+  margin: 1rem;
+}
+
+.vertical-line {
+  border-left: 2px solid #e31c25;
+  height: 15rem;
+}

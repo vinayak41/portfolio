@@ -1,0 +1,82 @@
+.projects {
+  width: 100%;
+  height: 100vh;
+  background-color: #181818;
+}
+
+.projects-title {
+  text-align: center;
+  padding-top: 3rem;
+  color: #f5d10d;
+}
+
+.projects-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-container {
+  width: 20rem;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 0.2rem solid #181818;
+  border-radius: 0.7rem;
+  margin: 2rem;
+  overflow: hidden;
+  position: relative;
+  background: #ffffff;
+  box-shadow: 0.1rem 0.1rem 1rem #a0a0a0;
+}
+
+.project-img {
+  width: 100%;
+  height: 70%;
+  border-bottom: 1px solid black;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.project-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.project-info h3 {
+  padding-left: 0.5rem;
+}
+
+.project-info p {
+  padding-left: 1.3rem;
+}
+
+.buttons-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.457);
+  visibility: hidden;
+}
+
+.project-container:hover .buttons-wrapper {
+  visibility: visible;
+}
+
+.buttons-wrapper > * {
+  margin: 1rem;
+  width: 6rem;
+  height: 3rem;
+  background-color: #ff3838;
+  color: white;
+  border: 0.15rem solid white;
+  border-radius: 0.5rem;
+  font-size: 0.93rem;
+}
