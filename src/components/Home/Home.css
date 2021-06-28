@@ -7,6 +7,7 @@
 .home .content {
   display: flex;
   height: 90vh;
+  padding-left: 4rem;
 }
 
 .image-container {
@@ -49,18 +50,29 @@
   color: #396a85;
   font-family: "Brygada 1918", serif;
   font-style: italic;
+  margin-top: 0.6rem;
 }
 
-.intro > button {
-  width: 7.5rem;
-  height: 3rem;
+.home .buttons-wrapper button {
+  width: 7.2rem;
+  height: 2.8rem;
   background-color: #e31c25;
   border-style: none;
   color: white;
   font-weight: 500;
   letter-spacing: 2px;
   border-radius: 5px;
-  margin: 3rem 2rem;
+  margin: 3rem 0rem;
+  text-align: center;
+}
+
+.home .buttons-wrapper button.resume {
+  background-color: #41875D;
+  margin-left: 1rem;
+}
+
+.home .iconify {
+  margin-bottom: -3px;
 }
 
 .social-media-icons {

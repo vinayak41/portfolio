@@ -1,6 +1,6 @@
 import React from "react";
-import "./Home.css"
-import vinayak_img from './../../assets/vinayak.jpg'
+import "./Home.css";
+import profileImg from '../../assets/vinayak-3.jpg'
 
 export default function Home() {
   return (
@@ -8,14 +8,17 @@ export default function Home() {
       <div class="content">
         <div class="image-container">
           <div class="profile-picture">
-            <img src={vinayak_img} alt="vinayak" />
+            <img src={profileImg} alt="vinayak" />
           </div>
         </div>
 
         <div class="intro">
           <h1>Vinayak &nbsp;Khandekar</h1>
           <h6>Front-end Developer</h6>
-          <button>About me</button>
+          <div className="buttons-wrapper">
+            <button>About me</button>
+            <button className="resume">Resume &nbsp;<span class="iconify" data-icon="fa-solid:file-download" data-inline="false"></span></button>
+          </div>
         </div>
         <div class="social-media-icons">
           <div class="vertical-line"></div>
