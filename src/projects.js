@@ -5,16 +5,16 @@ import weather_app_img from './assets/projects/weather-app.PNG';
 import todo_app_img from './assets/projects/todo-app.PNG';
 
 const Icons = {
-    react: <i class="devicon-react-original colored"></i>,
-    javaScript: <i class="devicon-javascript-plain colored"></i>,
-    HTML: <i class="devicon-html5-plain colored"></i>,
-    CSS: <i class="devicon-css3-plain colored"></i>,
-    node: <i class="devicon-nodejs-plain colored"></i>,
-    express: <i class="devicon-express-original colored"></i>,
-    mongoDB: <i class="devicon-mongodb-plain colored"></i>,
-    bootstrap: <i class="devicon-bootstrap-plain colored"></i>,
-    redux: <i class="devicon-redux-original colored"></i>,
-    CPlusPlus: <i class="devicon-cplusplus-plain colored"></i>
+    react: <i className="devicon-react-original colored"></i>,
+    javaScript: <i className="devicon-javascript-plain colored"></i>,
+    HTML: <i className="devicon-html5-plain colored"></i>,
+    CSS: <i className="devicon-css3-plain colored"></i>,
+    node: <i className="devicon-nodejs-plain colored"></i>,
+    express: <i className="devicon-express-original colored"></i>,
+    mongoDB: <i className="devicon-mongodb-plain colored"></i>,
+    bootstrap: <i className="devicon-bootstrap-plain colored"></i>,
+    redux: <i className="devicon-redux-original colored"></i>,
+    CPlusPlus: <i className="devicon-cplusplus-plain colored"></i>
 }
 export default [
     {

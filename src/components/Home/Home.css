@@ -6,7 +6,7 @@
 
 .home .content {
   display: flex;
-  height: 90vh;
+  height: inherit;
   padding-left: 4rem;
 }
 
@@ -26,8 +26,8 @@
 }
 
 .profile-picture > img {
-  width: 15rem;
-  height: 15rem;
+  width: inherit;
+  height: inherit;
   overflow: hidden;
 }
 
@@ -93,4 +93,187 @@
 .vertical-line {
   border-left: 2px solid #e31c25;
   height: 15rem;
+}
+
+@media screen and (max-width: 1158px) {
+  .profile-picture {
+    width: 12rem;
+    height: 12rem;
+    margin: 0.5rem;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .image-container {
+    margin-right: 1rem;
+  }
+  
+  .intro > h1 {
+    font-size: 2.4rem;
+  }
+
+  .intro > h6 {
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (max-width: 916px) {
+  .intro > h1 {
+    font-size: 2.1rem;
+    letter-spacing: 3px;
+  }
+
+  .intro > h6 {
+    font-size: 1.5rem;
+  }
+
+  .profile-picture {
+    width: 9.5rem;
+    height: 9.5rem;
+  }
+
+  .home .buttons-wrapper button {
+    width: 6.5rem;
+    height: 2.4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  .intro > h1 {
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+  }
+
+  .intro > h6 {
+    font-size: 1.2rem;
+  }
+
+  .profile-picture {
+    width: 8.1rem;
+    height: 8.1rem;
+  }
+
+  .home {
+    height: 30rem;
+  }
+
+  .home .content {
+    padding-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 633px) {
+  .social-media-icons {
+    width: 3.2rem;
+    font-size: 1.9rem;
+  }
+
+  .home .buttons-wrapper button {
+    width: 5.5rem;
+    height: 2.1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: .8rem;
+    letter-spacing: 1px;
+  }
+
+  .buttons-wrapper .resume svg {
+    margin-left: -4px;
+  }
+
+  .profile-picture {
+    width: 8rem;
+    height: 8rem;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .profile-picture {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .intro > h1 {
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+  }
+
+  .intro > h6 {
+    font-size: 1rem;
+  }
+
+  .home .buttons-wrapper button {
+    width: 5rem;
+    height: 2rem;
+    letter-spacing: 0px;
+    font-weight: 400;
+  }
+}
+
+
+@media screen and (max-width: 498px) {
+  .social-media-icons {
+    width: 2.8rem;
+    font-size: 1.4rem;
+    color: #e31c25;
+  }
+
+  .profile-picture {
+    width: 6.1rem;
+    height: 6.1rem;
+  }
+}
+
+@media screen and (max-width: 433px) {
+  .intro > h1 {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+  }
+
+  .intro > h6 {
+    font-size: 0.8rem;
+    font-weight: 300;
+  }
+
+  .home .buttons-wrapper button {
+    width: 4.4rem;
+    height: 1.7rem;
+    font-weight: 300;
+  }
+
+  .profile-picture {
+    width: 5.6rem;
+    height: 5.6rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .intro > h1 {
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+  }
+
+  .intro > h6 {
+    font-size: 0.8rem;
+    font-weight: 300;
+  }
+
+  .profile-picture {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .home .buttons-wrapper button {
+    width: 4.31rem;
+    height: 1.61rem;
+    font-weight: 300;
+  }
+
+  .social-media-icons {
+    width: 2.2rem;
+    font-size: 1.2rem;
+  }
 }

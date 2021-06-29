@@ -13,3 +13,47 @@
   margin: 2rem;
   color: #f5d10d;
 }
+
+@media screen and (max-width: 765px) {
+  .navbar > * {
+    margin: 1.5rem;
+    font-size: 1.05rem;
+  }
+
+  .navbar {
+    padding-right: 3rem;
+  }
+}
+
+@media screen and (max-width: 633px) {
+  .navbar > * {
+    margin: 1.2rem;
+    font-size: 1rem;
+  }
+
+  .navbar {
+    padding-right: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .navbar > * {
+    margin: 1rem;
+    font-size: 1rem;
+  }
+
+  .navbar {
+    padding-right: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 433px) {
+  .navbar > * {
+    margin: 0.7rem;
+    font-size: 0.9rem;
+  }
+
+  .navbar {
+    padding-right: 1.3rem;
+  }
+}

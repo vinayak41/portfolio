@@ -4,7 +4,7 @@ export default function Project(props) {
   let { name, description, image, liveDemoLink, codeLink, teckStack } = props.projectData;
   image = './../.' + image;
   return (
-    <div class="project-container">
+    <div className="project-container">
       <div className="img-wrapper">
         <img src={image} alt={name} />
         <div className="buttons-wrapper">
@@ -13,7 +13,7 @@ export default function Project(props) {
         </div>
       </div> 
       <div className="details">
-        <h2>{name}</h2>
+        <h3>{name}</h3>
         <p>{description}</p>
         <span>{teckStack.map( item => item)}</span>
       </div>

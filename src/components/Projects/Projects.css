@@ -65,8 +65,9 @@
 
 .project-container .img-wrapper img{
   width: inherit;
-  border-bottom: 0.1rem solid rgb(174, 255, 244);
-  box-shadow: 0px 1px 15px rgb(165, 255, 243);
+  height: inherit;
+  border-bottom: 2px solid rgb(162, 255, 243);
+  box-shadow: 0px 1px 5px rgb(165, 255, 243);
 }
 
 .project-container .details {
@@ -79,12 +80,14 @@
   margin-right: 0.3rem;
 }
 
-.project-container .details p,span{
+.project-container .details p {
   margin-left: 1.5rem;
+  font-size: .9rem;
 }
 
 .project-container .details span {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
+  margin-left: 1.5rem;
 }
 
 .project-container .details span i{
@@ -98,4 +101,13 @@
 .project-container:hover {
   box-shadow: 1px 1px 10px #5dc9ff;
   border: 1px solid #5dc9ff;
+}
+
+@media screen and (max-width: 510px) {
+  .projects-wrapper {
+    margin: 0.2rem;
+  }
+  .project-container {
+  margin: 0.8rem;
+  }
 }

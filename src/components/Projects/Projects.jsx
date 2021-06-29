@@ -5,8 +5,8 @@ import "./Projects.css";
 
 export default function Projects() {
   return (
-    <div class="projects">
-      <div class="projects-title">
+    <div className="projects">
+      <div className="projects-title">
         <h1>Projects</h1>
       </div>
       <div className="projects-wrapper">

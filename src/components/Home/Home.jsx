@@ -5,28 +5,28 @@ import resume from '../../assets/vinayak-ramchandra-khandekar.pdf'
 
 export default function Home() {
   return (
-    <div class="home">
-      <div class="content">
-        <div class="image-container">
-          <div class="profile-picture">
+    <div className="home">
+      <div className="content">
+        <div className="image-container">
+          <div className="profile-picture">
             <img src={profileImg} alt="vinayak" />
           </div>
         </div>
 
-        <div class="intro">
+        <div className="intro">
           <h1>Vinayak &nbsp;Khandekar</h1>
           <h6>Front-end Developer</h6>
           <div className="buttons-wrapper">
             <button>About me</button>
-            <button className="resume"><a href={resume} target="_blank" rel="noopener noreferrer">Resume &nbsp;<span class="iconify" data-icon="fa-solid:file-download" data-inline="false"></span></a></button>
+            <button className="resume"><a href={resume} target="_blank" rel="noopener noreferrer">Resume &nbsp;<span className="iconify" data-icon="fa-solid:file-download" data-inline="false"></span></a></button>
           </div>
         </div>
-        <div class="social-media-icons">
-          <div class="vertical-line"></div>
-          <i class="fab fa-linkedin"></i>
-          <i class="fab fa-github"></i>
-          <i class="fab fa-instagram"></i>
-          <div class="vertical-line"></div>
+        <div className="social-media-icons">
+          <div className="vertical-line"></div>
+          <i className="fab fa-linkedin"></i>
+          <i className="fab fa-github"></i>
+          <i className="fab fa-instagram"></i>
+          <div className="vertical-line"></div>
         </div>
       </div>
     </div>
