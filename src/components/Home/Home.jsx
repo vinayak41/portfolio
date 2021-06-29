@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import profileImg from '../../assets/vinayak-3.jpg'
+import resume from '../../assets/vinayak-ramchandra-khandekar.pdf'
 
 export default function Home() {
   return (
@@ -17,7 +18,7 @@ export default function Home() {
           <h6>Front-end Developer</h6>
           <div className="buttons-wrapper">
             <button>About me</button>
-            <button className="resume">Resume &nbsp;<span class="iconify" data-icon="fa-solid:file-download" data-inline="false"></span></button>
+            <button className="resume"><a href={resume} target="_blank" rel="noopener noreferrer">Resume &nbsp;<span class="iconify" data-icon="fa-solid:file-download" data-inline="false"></span></a></button>
           </div>
         </div>
         <div class="social-media-icons">
