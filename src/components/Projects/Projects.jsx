@@ -5,7 +5,7 @@ import "./Projects.css";
 
 export default function Projects() {
   return (
-    <div className="projects">
+    <div id="projects" className="projects">
       <div className="projects-title">
         <h1>Projects</h1>
       </div>

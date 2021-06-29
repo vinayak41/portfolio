@@ -3,9 +3,9 @@ import "./Navbar.css"
 export default function Navbar() {
   return (
     <div className="navbar">
-      <h3>About</h3>
-      <h3>Projects</h3>
-      <h3>Contact</h3>
+      <h3><a href="#about">About me</a></h3>
+      <h3><a href="#projects">Projects</a></h3>
+      <h3><a href="#contact">Contact</a></h3>
     </div>
   );
 }

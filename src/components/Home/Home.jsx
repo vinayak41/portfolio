@@ -17,7 +17,7 @@ export default function Home() {
           <h1>Vinayak &nbsp;Khandekar</h1>
           <h6>Front-end Developer</h6>
           <div className="buttons-wrapper">
-            <button>About me</button>
+            <button><a href="#about">About me</a></button>
             <button className="resume"><a href={resume} target="_blank" rel="noopener noreferrer">Resume &nbsp;<span className="iconify" data-icon="fa-solid:file-download" data-inline="false"></span></a></button>
           </div>
         </div>

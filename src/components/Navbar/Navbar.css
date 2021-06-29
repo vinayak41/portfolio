@@ -9,13 +9,13 @@
   background-color: #181818;
 }
 
-.navbar > * {
+.navbar > h3 > a {
   margin: 2rem;
   color: #f5d10d;
 }
 
 @media screen and (max-width: 765px) {
-  .navbar > * {
+  .navbar > h3 > a {
     margin: 1.5rem;
     font-size: 1.05rem;
   }
@@ -26,7 +26,7 @@
 }
 
 @media screen and (max-width: 633px) {
-  .navbar > * {
+  .navbar > h3 > a {
     margin: 1.2rem;
     font-size: 1rem;
   }
@@ -37,7 +37,7 @@
 }
 
 @media screen and (max-width: 544px) {
-  .navbar > * {
+  .navbar > h3 > a {
     margin: 1rem;
     font-size: 1rem;
   }
@@ -48,7 +48,7 @@
 }
 
 @media screen and (max-width: 433px) {
-  .navbar > * {
+  .navbar > h3 > a {
     margin: 0.7rem;
     font-size: 0.9rem;
   }
