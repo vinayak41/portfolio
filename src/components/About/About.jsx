@@ -1,10 +1,4 @@
 import React from "react";
-import { Icon, InlineIcon } from "@iconify/react";
-import postmanIcon from "@iconify-icons/logos/postman-icon";
-import figmaIcon from "@iconify-icons/logos/figma";
-// import githubFill from "@iconify-icons/akar-icons/github-fill";
-import gitIcon from "@iconify-icons/logos/git-icon";
-import fileTypeVscode from "@iconify-icons/vscode-icons/file-type-vscode";
 import "./About.css";
 
 export default function About() {
@@ -70,7 +64,7 @@ export default function About() {
           <h2>Tools</h2>
           <div className="tools-wrapper">
             <div className="tools-icon-wrapper">
-              <Icon icon={gitIcon} />
+            <span class="iconify" data-icon="logos:git-icon" data-inline="false"></span>
               <p>Git</p>
             </div>
             <div className="tools-icon-wrapper github">
@@ -78,15 +72,15 @@ export default function About() {
               <p>GitHub</p>
             </div>
             <div className="tools-icon-wrapper">
-              <Icon icon={postmanIcon} />
+            <span class="iconify" data-icon="logos:postman-icon" data-inline="false"></span>
               <p>Postman</p>
             </div>
             <div className="tools-icon-wrapper">
-              <Icon icon={figmaIcon} />
+            <span class="iconify" data-icon="logos:figma" data-inline="false"></span>
               <p>Figma</p>
             </div>
             <div className="tools-icon-wrapper">
-              <Icon icon={fileTypeVscode} />
+            <span class="iconify" data-icon="vscode-icons:file-type-vscode" data-inline="false"></span>
               <p>VS code</p>
             </div>
           </div>
