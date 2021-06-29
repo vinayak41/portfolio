@@ -2,7 +2,7 @@ import React from "react";
 import { Icon, InlineIcon } from "@iconify/react";
 import postmanIcon from "@iconify-icons/logos/postman-icon";
 import figmaIcon from "@iconify-icons/logos/figma";
-import githubFill from "@iconify-icons/akar-icons/github-fill";
+// import githubFill from "@iconify-icons/akar-icons/github-fill";
 import gitIcon from "@iconify-icons/logos/git-icon";
 import fileTypeVscode from "@iconify-icons/vscode-icons/file-type-vscode";
 import "./About.css";
@@ -74,7 +74,7 @@ export default function About() {
               <p>Git</p>
             </div>
             <div className="tools-icon-wrapper github">
-              <Icon icon={githubFill} />
+            <span class="iconify" data-icon="akar-icons:github-fill" data-inline="false"></span>
               <p>GitHub</p>
             </div>
             <div className="tools-icon-wrapper">
