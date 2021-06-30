@@ -86,8 +86,9 @@
   color: #e31c25;
 }
 
-.social-media-icons > i {
+.social-media-icons > a {
   margin: 1rem;
+  color: #e31c25;
 }
 
 .vertical-line {

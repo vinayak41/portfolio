@@ -23,9 +23,9 @@ export default function Home() {
         </div>
         <div className="social-media-icons">
           <div className="vertical-line"></div>
-          <i className="fab fa-linkedin"></i>
-          <i className="fab fa-github"></i>
-          <i className="fab fa-instagram"></i>
+          <a href="https://www.linkedin.com/in/vinayak-khandekar/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
+          <a href="https://github.com/vinayak41" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
+          <a href="https://twitter.com/Vinayak59105511" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter-square"></i></a>
           <div className="vertical-line"></div>
         </div>
       </div>
